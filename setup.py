@@ -1,6 +1,7 @@
-from setuptools import setup, find_packages
+import setuptools
 
-setup(name='estore-client',
+setuptools.setup(
+    name='estore-client',
     version='0.0.1',
     description='Event Store Client',
     author='Jnxy',
@@ -13,4 +14,4 @@ setup(name='estore-client',
         'aiohttp',
         'aiohttp-session',
     ],
-    packages=find_packages())
+    packages=setuptools.find_napespace_packages(include=['estore.*']))
