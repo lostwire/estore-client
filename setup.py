@@ -13,5 +13,6 @@ setuptools.setup(
         'asyncio',
         'aiohttp',
         'aiohttp-session',
+        'estore-base',
     ],
     packages=setuptools.find_napespace_packages(include=['estore.*']))
