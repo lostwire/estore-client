@@ -25,5 +25,6 @@ setuptools.setup(
         'aiohttp',
         'estore-base',
         'aiohttp-session',
+        'estore-base',
     ],
     packages=setuptools.find_namespace_packages(include=['estore.*']))
